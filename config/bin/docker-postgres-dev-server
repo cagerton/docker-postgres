@@ -3,7 +3,7 @@
 set -e
 
 echo "----------------------------------------------------------------"
-echo "PostgreSQL 9.2 Development Docker Container"
+echo "PostgreSQL 9.3 Development Docker Container"
 echo
 echo "Username: pgdeveloper"
 echo "Password: pgdeveloper"
@@ -18,4 +18,4 @@ echo "----------------------------------------------------------------"
 
 /etc/init.d/postgresql start
 
-tail -f /var/log/postgresql/postgresql-9.2-main.log
+tail -f /var/log/postgresql/postgresql-9.3-main.log
